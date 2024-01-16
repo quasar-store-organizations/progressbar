@@ -122,6 +122,7 @@ local function StartActions()
             isPropTwo = true
         end
         disableControls()
+        LocalPlayer.state:set('inv_busy', true, true)
     end
 end
 
